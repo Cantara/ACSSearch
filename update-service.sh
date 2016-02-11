@@ -1,7 +1,7 @@
 #!/bin/sh
 
 A=AcsSearch
-V=0.0.1
+version=0.0.1
 JARFILE=$A-$V.jar
 
 pkill -f $A
@@ -11,10 +11,10 @@ server="http://mvnrepo.cantara.no"
 repo="content/repositories/releases/com/altran"
 
 # Maven artifact location
-name=$A-$V
+name=$A-$version
 path="$server/$repo/$A"
 echo "Version $version"
-jar="$A-$V.jar"
+jar="$A-$version.jar"
 url="$path/$version/$jar"
 
 # Download
