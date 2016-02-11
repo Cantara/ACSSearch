@@ -8,7 +8,7 @@ pkill -f $A
 
 # Artifactory location
 server="http://mvnrepo.cantara.no"
-repo="content/repositories/snapshots/com/altran"
+repo="content/repositories/releases/com/altran"
 
 # Maven artifact location
 name=$A-$V
